@@ -2,9 +2,12 @@
 
 ##Description
 
-The Team Profile Generator is used to generate profiles for a work team. It asks for the employee name, ID, email, github and what type employee is in your group and allows for you to generate as many employee cards as needed with all the previous stated info.
+The Team Profile Generator is used to generate profiles for a work team. It will prompt for entering Manager details and his team member details including name, ID, email. If employee type chosen is Engineer then it prompts their github name and school name for employee of type intern.
 
 ##Installation Instructions
+
+To install, clone the repository via github. Then download Node.js.
+Also install Test package jest, using command npm -i jest
 
 ##Usage Instructions
 
@@ -12,6 +15,13 @@ Startup the team-profile-generator with a command prompt interface, then type "n
 
 ##Testing
 
-N/A
+Type command npm test, after changing the node js package script to jest 
+<picture>
+<img src="./assets/JestTest.PNG">
+</picture>
 
 ##Preview of app final product
+Sample output html generated can be viewed below 
+<picture>
+<img src="./assets/Myteam.PNG">
+</picture>

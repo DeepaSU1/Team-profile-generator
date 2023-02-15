@@ -1,7 +1,7 @@
 
 // Import Require files
 const render = require("./src/page-template.js");
-const generateHTML = require('./src/generateHTML');
+const pagehtml = require('./src/pagehtml');
 const path = require("path");
 const fs = require("fs");
 
@@ -25,7 +25,7 @@ const addManager = () => {
         {
             type: 'input',
             name: 'name',
-            message: 'Who is the manager of this team?', 
+            message: "Please enter team manager's name", 
             validate: nameInput => {
                 if (nameInput) {
                     return true;
@@ -168,7 +168,7 @@ const addEmployee = () => {
         {
             type: 'confirm',
             name: 'confirmAddEmployee',
-            message: 'Would you like to add more team members?',
+            message: 'Would you like to continue adding team members or Finish?',
             default: false
         }
     ])
@@ -205,7 +205,7 @@ const addEmployee = () => {
 const writeFile = data => {
     
     //fs.writeFile(outputPath, data, err => {
-    fs.writeFile('./output/index.html', data, err => {
+    fs.writeFile('./output/My team.html', data, err => {
     
 
         // if there is an error 
