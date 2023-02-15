@@ -11,8 +11,15 @@ Also install Test package jest, using command npm -i jest
 
 ##Usage Instructions
 
-Startup the team-profile-generator with a command prompt interface, then type "npm install" to install packages for node modules. After module installations, run the application from the command line "node index.js" and proceed through the command prompt to create your Team Profile.
+Startup the team-profile-generator with a command prompt interface, then type "npm install" to install packages for node modules. After module installations, run the application from the command line "node index.js" and proceed through the command prompt to create your Team Profile. Check sample program execution screens below.
 
+<picture>
+<img src="./assets/NodeJSExec1.PNG">
+</picture>
+
+<picture>
+<img src="./assets/NodeJSExec2.PNG">
+</picture>
 ##Testing
 
 Type command npm test, after changing the node js package script to jest 
