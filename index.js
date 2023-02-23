@@ -205,7 +205,7 @@ const addEmployee = () => {
 const writeFile = data => {
     
     //fs.writeFile(outputPath, data, err => {
-    fs.writeFile('./output/My team.html', data, err => {
+    fs.writeFile('./output/Myteam.html', data, err => {
     
 
         // if there is an error 
